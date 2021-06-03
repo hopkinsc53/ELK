@@ -1,11 +1,11 @@
 README.md
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansibledocker-scripts/ansible.cfg file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  - https://github.com/hopkinsc53/GTechcybersecurity2021/blob/f2eaeb03ae42d555194fc08ac4e28b6dc52ba7bc/Ansibledocker-scripts/filebeat-playbook.yml
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -17,8 +17,8 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+Load balancing ensures that the application will be highly redundant, in addition to restricting denial of service to the network.
+- Load balancers protect the Availability aspect of the CIA triad of cybersecurity _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
@@ -30,7 +30,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-|  OffSec1 | server 1 | 10.1.0    | Linux             |
+|  OffSec1 | server 1 | 10.1.0.    | Linux            |
 | OffSec2  | server 2 |            |                  |
 | offSec3  | server 3 |            |                  |
 
