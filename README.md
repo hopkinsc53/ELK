@@ -21,8 +21,8 @@ Load balancing ensures that the application will be highly redundant, in additio
 - Load balancers protect the Availability aspect of the CIA triad of cybersecurity 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+- Filebeat watches log files, collects log events and sends them to Elasticsearch for indexing. 
+- Metricbeat records the operating system and it's services then sends them to Eelasticsearch.  
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
