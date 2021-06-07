@@ -30,9 +30,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1   | Linux            |
-|  OffSec1 | server 1 | 10.1.0.    | Linux            |
-| OffSec2  | server 2 |            |                  |
-| offSec3  | server 3 |            |                  |
+|  OffSec1 | server 1 | 10.1.0.6   | Linux            |
+| OffSec2  | server 2 | 10.1.0.7   | Linux            |
+| offSec3  | server 3 | 10.1.0.8   | Linux            |
 
 ### Access Policies
 
