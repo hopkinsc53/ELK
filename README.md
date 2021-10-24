@@ -80,7 +80,6 @@ We have installed the following Beats on these machines:
 - On the webservers OffSec1, OffSec2, OffSec3
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 - Filebeat records log data which allows one to monitor device traffic
 - Metricbeat records hardware data such as OS info, CPU and memory usage, ect.
 
@@ -91,11 +90,3 @@ SSH into the control node and follow the steps below:
 - Copy the Deployment-playbook.yml file to /etc/ansible/roles
 - Update the /etc/ansible/hosts file to include the IP addresses in the web server and ELK groups. Uncomment the web servers portion and add the ELK portion for it to work 
 - Run the playbook, and navigate to 52.188.120.165:5601/app/kibana to check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
